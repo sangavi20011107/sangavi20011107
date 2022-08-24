@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <div class="main" style="text-align: center;margin-top:15%;">
+        <h3>Welcome Admin</h3>
+
+        <h4>Enter the place to update into database</h4>
+        <h4>Per day only 5 services are available</h4>
+        <div>
+            <form action="insertplace.php" method="post">
+                <input type="text" name="place" placeholder="Enter the place">
+                <input type="number" name="num" placeholder="Enter no of sevices">
+                <input type="submit" value="INSERT">
+            </form>
+        </div>
+        <div class="view">
+            <form action="list.php" method="post">
+                <br>
+                <input type="submit" value="VIEW ALL BOOKINGS">
+            </form>
+        </div>
+    </div>
+   
+</body>
+</html>

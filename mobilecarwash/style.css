@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+.main{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 25%;
+}
+.log-title,.reg-title,.form,.signup,.login,.inputpassword,.inputname,.submitBtn{
+    margin: 10px;
+
+}
+.form-con input{
+    padding: 7px;
+}
+.form-con input[type=submit]{
+    padding: 5px;
+}
